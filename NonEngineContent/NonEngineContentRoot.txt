@@ -1,0 +1,2 @@
+Anything in this directory is for art assets and the like that you still want source controlled.
+Unreal converts everything into a .u something, so put your .fbx files or whatever here
