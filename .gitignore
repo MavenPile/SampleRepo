@@ -1,5 +1,9 @@
-# The .gitignore created by Unreal Engine exludes some files,
-# but we can take a different approach
+# The .gitignore created by Unreal Engine exludes some files and directories.
+# A different approach is to exclude everything except what we need.
+
+# The following gitignore settings were mostly written by the github account MOZGII,
+# they were slightly modified by Maven Dev to account for the .gitignore being a dir
+# level higher than the Unreal Engine project dir.
 
 # Ignore all files by default, but scan all directories.
 *
