@@ -1,0 +1,28 @@
+# The .gitignore created by Unreal Engine exludes some files,
+# but we can take a different approach
+
+# Ignore all files by default, but scan all directories.
+*
+!*/
+
+# Do not ignore git files in the root of the repo.
+!/.git*
+
+# Do not ignore current project's `.uproject`.
+!/*.uproject
+
+# Do not ignore source, config and plugins dirs.
+!/Source/**
+!/Config/**
+!/Plugins/**
+
+# Only allow .uasset and .umap files from /Content dir.
+# They're tracked by git-lfs, don't forget to track other
+# files if adding them here.
+!/Content/**/*.uasset
+!/Content/**/*.umap
+
+# Allow any files from /NonEngineContent dir.
+# Any file in /NonEngineContent dir will be managed by git lfs.
+# This is where art assets (like .fbx) would be stored.
+!/NonEngineContent/**/*
