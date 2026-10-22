@@ -19,6 +19,7 @@
 !*/*.uproject
 
 # Do not ignore source, config and plugins dirs.
+# There is the potential that plugin dirs require more specificity.
 !*/Source/**
 !*/Config/**
 !*/Plugins/**
